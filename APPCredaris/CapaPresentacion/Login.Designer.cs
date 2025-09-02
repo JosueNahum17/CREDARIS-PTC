@@ -29,73 +29,37 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pnlContrasena = new System.Windows.Forms.Panel();
             this.txtContrasena = new System.Windows.Forms.TextBox();
-            this.ptbImgContrasena = new System.Windows.Forms.PictureBox();
             this.pnlUsuario = new System.Windows.Forms.Panel();
             this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.closebtn = new System.Windows.Forms.Button();
+            this.ptbImgContrasena = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.pnlContrasena.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbImgContrasena)).BeginInit();
             this.pnlUsuario.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbImgContrasena)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.BackColor = System.Drawing.Color.Black;
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(300, 530);
             this.panel1.TabIndex = 0;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(38, 270);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(128, 34);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Credaris";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(38, 215);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(204, 34);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Bienvenido a ";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::CapaPresentacion.Properties.Resources.logo_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(44, 13);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(187, 181);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
@@ -117,7 +81,7 @@
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Location = new System.Drawing.Point(231, 319);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(207, 64);
@@ -128,7 +92,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button1.BackColor = System.Drawing.Color.Black;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -163,19 +127,6 @@
             this.txtContrasena.UseSystemPasswordChar = true;
             this.txtContrasena.Click += new System.EventHandler(this.txtContrasena_Click);
             // 
-            // ptbImgContrasena
-            // 
-            this.ptbImgContrasena.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ptbImgContrasena.Image = global::CapaPresentacion.Properties.Resources.icons8_candado_50;
-            this.ptbImgContrasena.Location = new System.Drawing.Point(6, 4);
-            this.ptbImgContrasena.Name = "ptbImgContrasena";
-            this.ptbImgContrasena.Size = new System.Drawing.Size(44, 38);
-            this.ptbImgContrasena.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ptbImgContrasena.TabIndex = 6;
-            this.ptbImgContrasena.TabStop = false;
-            this.ptbImgContrasena.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ptbImgContrasena_MouseDown);
-            this.ptbImgContrasena.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ptbImgContrasena_MouseUp);
-            // 
             // pnlUsuario
             // 
             this.pnlUsuario.BackColor = System.Drawing.Color.White;
@@ -197,24 +148,14 @@
             this.txtUsuario.TabIndex = 6;
             this.txtUsuario.Click += new System.EventHandler(this.txtUsuario_Click);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::CapaPresentacion.Properties.Resources.icons8_usuario_50;
-            this.pictureBox2.Location = new System.Drawing.Point(6, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(44, 38);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(17, 91);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(376, 34);
+            this.label3.Size = new System.Drawing.Size(379, 34);
             this.label3.TabIndex = 2;
             this.label3.Text = "Iniciar seccion en Credaris";
             // 
@@ -232,6 +173,39 @@
             this.closebtn.UseVisualStyleBackColor = false;
             this.closebtn.Click += new System.EventHandler(this.closebtn_Click);
             // 
+            // ptbImgContrasena
+            // 
+            this.ptbImgContrasena.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ptbImgContrasena.Image = global::CapaPresentacion.Properties.Resources.icons8_candado_50;
+            this.ptbImgContrasena.Location = new System.Drawing.Point(3, 10);
+            this.ptbImgContrasena.Name = "ptbImgContrasena";
+            this.ptbImgContrasena.Size = new System.Drawing.Size(31, 27);
+            this.ptbImgContrasena.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptbImgContrasena.TabIndex = 6;
+            this.ptbImgContrasena.TabStop = false;
+            this.ptbImgContrasena.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ptbImgContrasena_MouseDown);
+            this.ptbImgContrasena.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ptbImgContrasena_MouseUp);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::CapaPresentacion.Properties.Resources.icons8_usuario_50;
+            this.pictureBox2.Location = new System.Drawing.Point(6, 7);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(31, 31);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::CapaPresentacion.Properties.Resources.imagen1;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 146);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(288, 237);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -245,16 +219,15 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.pnlContrasena.ResumeLayout(false);
             this.pnlContrasena.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbImgContrasena)).EndInit();
             this.pnlUsuario.ResumeLayout(false);
             this.pnlUsuario.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbImgContrasena)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -264,8 +237,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button closebtn;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel pnlContrasena;

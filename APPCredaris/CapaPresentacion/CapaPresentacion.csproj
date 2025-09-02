@@ -59,6 +59,12 @@
     <Compile Include="ADMIN\Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="ADMIN\GestionEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\GestionEmpleados.Designer.cs">
+      <DependentUpon>GestionEmpleados.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ADMIN\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN\GestionEmpleados.resx">
+      <DependentUpon>GestionEmpleados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -162,6 +171,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-logout-45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-x-641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cuadrado-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minimizar-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-restaurar-abajo-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gestiondeusuarioslogo-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-coin-in-hand-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gestion de empleados,animado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagen1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

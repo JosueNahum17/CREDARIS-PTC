@@ -63,9 +63,39 @@ namespace CapaPresentacion.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gestion_de_empleados_animado {
+            get {
+                object obj = ResourceManager.GetObject("gestion de empleados,animado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gestiondeusuarioslogo_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("gestiondeusuarioslogo-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_candado_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-candado-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_coin_in_hand_40 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-coin-in-hand-40", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -96,6 +126,16 @@ namespace CapaPresentacion.Properties {
         internal static System.Drawing.Bitmap icons8_cuadrado_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-cuadrado-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_cuadrado_501 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-cuadrado-501", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,6 +203,16 @@ namespace CapaPresentacion.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_minimizar_241 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-minimizar-241", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_minimizar_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-minimizar-50", resourceCulture);
@@ -186,6 +236,16 @@ namespace CapaPresentacion.Properties {
         internal static System.Drawing.Bitmap icons8_restaurar_abajo_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8-restaurar-abajo-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_restaurar_abajo_321 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-restaurar-abajo-321", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -236,6 +296,36 @@ namespace CapaPresentacion.Properties {
         internal static System.Drawing.Bitmap icons8_x_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-x-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_x_641 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-x-641", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagen {
+            get {
+                object obj = ResourceManager.GetObject("imagen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagen1 {
+            get {
+                object obj = ResourceManager.GetObject("imagen1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
