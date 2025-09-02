@@ -1,0 +1,62 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Drawing;
+
+namespace CapaPresentacion
+{
+    public partial class Login : Form
+    {
+        public Login()
+        {
+            InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void closebtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUsuario_Click(object sender, EventArgs e)
+        {
+            txtUsuario.BackColor = Color.White;
+            pnlUsuario.BackColor= Color.White;
+            pnlContrasena.BackColor= SystemColors.Control;
+            txtContrasena.BackColor= SystemColors.Control;
+        }
+
+        private void txtContrasena_Click(object sender, EventArgs e)
+        {
+            txtContrasena.BackColor = Color.White;
+            pnlContrasena.BackColor=Color.White;
+            txtUsuario.BackColor= SystemColors.Control;
+            pnlUsuario.BackColor=SystemColors.Control;
+        }
+
+        private void ptbImgContrasena_MouseDown(object sender, MouseEventArgs e)
+        {
+            txtContrasena.UseSystemPasswordChar=false;
+        }
+
+        private void ptbImgContrasena_MouseUp(object sender, MouseEventArgs e)
+        {
+            txtContrasena.UseSystemPasswordChar=true;
+        }
+    }
+}
