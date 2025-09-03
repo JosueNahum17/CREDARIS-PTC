@@ -65,6 +65,19 @@
     <Compile Include="ADMIN\GestionEmpleados.Designer.cs">
       <DependentUpon>GestionEmpleados.cs</DependentUpon>
     </Compile>
+    <Compile Include="ADMIN\GestionPagos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\GestionPagos.Designer.cs">
+      <DependentUpon>GestionPagos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\GestionPrestamos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\GestionPrestamos.Designer.cs">
+      <DependentUpon>GestionPrestamos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\conexion.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +91,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ADMIN\GestionEmpleados.resx">
       <DependentUpon>GestionEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN\GestionPagos.resx">
+      <DependentUpon>GestionPagos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN\GestionPrestamos.resx">
+      <DependentUpon>GestionPrestamos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

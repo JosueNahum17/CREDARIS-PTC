@@ -53,5 +53,41 @@ namespace CapaPresentacion.ADMIN
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
+
+
+        private void btnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void btnGestionEmpleados_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGestionPrestamos_Click(object sender, EventArgs e)
+        {
+            GestionPrestamos gestionPrestamos = new GestionPrestamos();
+            gestionPrestamos.Show();
+            this.Hide();
+        }
+
+        private void btnGestionPagos_Click(object sender, EventArgs e)
+        {
+            GestionPagos gestionPagos = new GestionPagos();
+            gestionPagos.Show();
+            this.Hide();
+        }
+
+        private void btnGestionEmpleados01_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

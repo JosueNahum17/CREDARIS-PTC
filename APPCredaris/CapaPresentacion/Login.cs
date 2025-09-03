@@ -1,13 +1,14 @@
-﻿using System;
+﻿using CapaPresentacion.ADMIN;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Drawing;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Drawing;
 
 namespace CapaPresentacion
 {
@@ -56,7 +57,42 @@ namespace CapaPresentacion
 
         private void ptbImgContrasena_MouseUp(object sender, MouseEventArgs e)
         {
-            txtContrasena.UseSystemPasswordChar=true;
+            txtContrasena.UseSystemPasswordChar = false;
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtUsuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtContrasena_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+            if (txtUsuario.Text == "admin" && txtContrasena.Text == "admin123")
+            {
+                Dashboard dashboard = new Dashboard();
+                dashboard.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos", "Error de inicio de sesión", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        private void ptbImgContrasena_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,15 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4 d17.14
+VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentacion", "CapaPresentacion\CapaPresentacion.csproj", "{151E3BED-7933-4EBD-B271-9B7F968896B1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaEntidad", "CapaEntidad\CapaEntidad.csproj", "{617EB160-0B27-4D0D-AF46-81CFB952D486}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaNegocio", "CapaNegocio\CapaNegocio.csproj", "{C31E1C87-36D1-42BC-908A-B03228701E83}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "CapaDatos\CapaDatos.csproj", "{F61E56E5-3F90-4CCE-854E-979530AE9DC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +15,6 @@ Global
 		{151E3BED-7933-4EBD-B271-9B7F968896B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{151E3BED-7933-4EBD-B271-9B7F968896B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{151E3BED-7933-4EBD-B271-9B7F968896B1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{617EB160-0B27-4D0D-AF46-81CFB952D486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{617EB160-0B27-4D0D-AF46-81CFB952D486}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{617EB160-0B27-4D0D-AF46-81CFB952D486}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{617EB160-0B27-4D0D-AF46-81CFB952D486}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C31E1C87-36D1-42BC-908A-B03228701E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C31E1C87-36D1-42BC-908A-B03228701E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C31E1C87-36D1-42BC-908A-B03228701E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C31E1C87-36D1-42BC-908A-B03228701E83}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F61E56E5-3F90-4CCE-854E-979530AE9DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F61E56E5-3F90-4CCE-854E-979530AE9DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F61E56E5-3F90-4CCE-854E-979530AE9DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F61E56E5-3F90-4CCE-854E-979530AE9DC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,6 @@
 ﻿namespace CapaPresentacion.ADMIN
 {
-    partial class GestionEmpleados
+    partial class GestionPrestamos
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.BarraTitulo = new System.Windows.Forms.Panel();
-            this.MenuVertical = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panelContenedor = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.MenuVertical = new System.Windows.Forms.Panel();
+            this.BarraTitulo = new System.Windows.Forms.Panel();
             this.btnCerrarSesion = new System.Windows.Forms.Button();
             this.btnGestionPagos = new System.Windows.Forms.Button();
             this.btnGestionPrestamos = new System.Windows.Forms.Button();
@@ -44,48 +44,15 @@
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnMaximizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
-            this.BarraTitulo.SuspendLayout();
-            this.MenuVertical.SuspendLayout();
             this.panelContenedor.SuspendLayout();
+            this.MenuVertical.SuspendLayout();
+            this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.SuspendLayout();
-            // 
-            // BarraTitulo
-            // 
-            this.BarraTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
-            this.BarraTitulo.Controls.Add(this.btnRestaurar);
-            this.BarraTitulo.Controls.Add(this.btnMinimizar);
-            this.BarraTitulo.Controls.Add(this.btnMaximizar);
-            this.BarraTitulo.Controls.Add(this.btnCerrar);
-            this.BarraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BarraTitulo.Location = new System.Drawing.Point(0, 0);
-            this.BarraTitulo.Margin = new System.Windows.Forms.Padding(2);
-            this.BarraTitulo.Name = "BarraTitulo";
-            this.BarraTitulo.Size = new System.Drawing.Size(975, 31);
-            this.BarraTitulo.TabIndex = 0;
-            this.BarraTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BarraTitulo_MouseDown);
-            // 
-            // MenuVertical
-            // 
-            this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.MenuVertical.Controls.Add(this.btnCerrarSesion);
-            this.MenuVertical.Controls.Add(this.panel3);
-            this.MenuVertical.Controls.Add(this.btnGestionPagos);
-            this.MenuVertical.Controls.Add(this.panel2);
-            this.MenuVertical.Controls.Add(this.btnGestionPrestamos);
-            this.MenuVertical.Controls.Add(this.panel1);
-            this.MenuVertical.Controls.Add(this.btnGestionEmpleados);
-            this.MenuVertical.Controls.Add(this.pictureBox1);
-            this.MenuVertical.Dock = System.Windows.Forms.DockStyle.Left;
-            this.MenuVertical.Location = new System.Drawing.Point(0, 31);
-            this.MenuVertical.Margin = new System.Windows.Forms.Padding(2);
-            this.MenuVertical.Name = "MenuVertical";
-            this.MenuVertical.Size = new System.Drawing.Size(197, 497);
-            this.MenuVertical.TabIndex = 1;
             // 
             // panel3
             // 
@@ -122,8 +89,8 @@
             this.panelContenedor.Location = new System.Drawing.Point(197, 31);
             this.panelContenedor.Margin = new System.Windows.Forms.Padding(2);
             this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(778, 497);
-            this.panelContenedor.TabIndex = 2;
+            this.panelContenedor.Size = new System.Drawing.Size(762, 458);
+            this.panelContenedor.TabIndex = 8;
             // 
             // panel5
             // 
@@ -132,9 +99,41 @@
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(778, 497);
+            this.panel5.Size = new System.Drawing.Size(762, 458);
             this.panel5.TabIndex = 3;
-            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint_1);
+            // 
+            // MenuVertical
+            // 
+            this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.MenuVertical.Controls.Add(this.btnCerrarSesion);
+            this.MenuVertical.Controls.Add(this.panel3);
+            this.MenuVertical.Controls.Add(this.btnGestionPagos);
+            this.MenuVertical.Controls.Add(this.panel2);
+            this.MenuVertical.Controls.Add(this.btnGestionPrestamos);
+            this.MenuVertical.Controls.Add(this.panel1);
+            this.MenuVertical.Controls.Add(this.btnGestionEmpleados);
+            this.MenuVertical.Controls.Add(this.pictureBox1);
+            this.MenuVertical.Dock = System.Windows.Forms.DockStyle.Left;
+            this.MenuVertical.Location = new System.Drawing.Point(0, 31);
+            this.MenuVertical.Margin = new System.Windows.Forms.Padding(2);
+            this.MenuVertical.Name = "MenuVertical";
+            this.MenuVertical.Size = new System.Drawing.Size(197, 458);
+            this.MenuVertical.TabIndex = 7;
+            // 
+            // BarraTitulo
+            // 
+            this.BarraTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.BarraTitulo.Controls.Add(this.btnRestaurar);
+            this.BarraTitulo.Controls.Add(this.btnMinimizar);
+            this.BarraTitulo.Controls.Add(this.btnMaximizar);
+            this.BarraTitulo.Controls.Add(this.btnCerrar);
+            this.BarraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BarraTitulo.Location = new System.Drawing.Point(0, 0);
+            this.BarraTitulo.Margin = new System.Windows.Forms.Padding(2);
+            this.BarraTitulo.Name = "BarraTitulo";
+            this.BarraTitulo.Size = new System.Drawing.Size(959, 31);
+            this.BarraTitulo.TabIndex = 6;
             // 
             // btnCerrarSesion
             // 
@@ -145,14 +144,14 @@
             this.btnCerrarSesion.ForeColor = System.Drawing.Color.White;
             this.btnCerrarSesion.Image = global::CapaPresentacion.Properties.Resources.icons8_logout_45;
             this.btnCerrarSesion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCerrarSesion.Location = new System.Drawing.Point(2, 445);
+            this.btnCerrarSesion.Location = new System.Drawing.Point(2, 406);
             this.btnCerrarSesion.Margin = new System.Windows.Forms.Padding(2);
             this.btnCerrarSesion.Name = "btnCerrarSesion";
             this.btnCerrarSesion.Size = new System.Drawing.Size(198, 52);
             this.btnCerrarSesion.TabIndex = 1;
-            this.btnCerrarSesion.Text = " Cerrar Sesion";
+            this.btnCerrarSesion.Text = "Cerrar Sesion";
             this.btnCerrarSesion.UseVisualStyleBackColor = false;
-            this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
+            this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click_1);
             // 
             // btnGestionPagos
             // 
@@ -171,7 +170,7 @@
             this.btnGestionPagos.TabIndex = 5;
             this.btnGestionPagos.Text = "Gestion Pagos";
             this.btnGestionPagos.UseVisualStyleBackColor = false;
-            this.btnGestionPagos.Click += new System.EventHandler(this.btnGestionPagos_Click);
+            this.btnGestionPagos.Click += new System.EventHandler(this.btnGestionPagos_Click_1);
             // 
             // btnGestionPrestamos
             // 
@@ -190,7 +189,6 @@
             this.btnGestionPrestamos.TabIndex = 3;
             this.btnGestionPrestamos.Text = "Gestion Prestamos";
             this.btnGestionPrestamos.UseVisualStyleBackColor = false;
-            this.btnGestionPrestamos.Click += new System.EventHandler(this.btnGestionPrestamos_Click);
             // 
             // btnGestionEmpleados
             // 
@@ -209,7 +207,7 @@
             this.btnGestionEmpleados.TabIndex = 1;
             this.btnGestionEmpleados.Text = "Gestion Empleados";
             this.btnGestionEmpleados.UseVisualStyleBackColor = false;
-            this.btnGestionEmpleados.Click += new System.EventHandler(this.btnGestionEmpleados_Click);
+            this.btnGestionEmpleados.Click += new System.EventHandler(this.btnGestionEmpleados_Click_1);
             // 
             // pictureBox1
             // 
@@ -227,7 +225,7 @@
             this.btnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRestaurar.Image = global::CapaPresentacion.Properties.Resources.icons8_restaurar_abajo_321;
-            this.btnRestaurar.Location = new System.Drawing.Point(924, 6);
+            this.btnRestaurar.Location = new System.Drawing.Point(908, 6);
             this.btnRestaurar.Margin = new System.Windows.Forms.Padding(2);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(19, 20);
@@ -235,7 +233,7 @@
             this.btnRestaurar.TabIndex = 1;
             this.btnRestaurar.TabStop = false;
             this.btnRestaurar.Visible = false;
-            this.btnRestaurar.Click += new System.EventHandler(this.btnRestaurar_Click);
+            this.btnRestaurar.Click += new System.EventHandler(this.btnRestaurar_Click_1);
             // 
             // btnMinimizar
             // 
@@ -243,14 +241,14 @@
             this.btnMinimizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinimizar.Image = global::CapaPresentacion.Properties.Resources.icons8_minimizar_241;
-            this.btnMinimizar.Location = new System.Drawing.Point(901, 6);
+            this.btnMinimizar.Location = new System.Drawing.Point(885, 6);
             this.btnMinimizar.Margin = new System.Windows.Forms.Padding(2);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(19, 20);
             this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMinimizar.TabIndex = 1;
             this.btnMinimizar.TabStop = false;
-            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click_1);
             // 
             // btnMaximizar
             // 
@@ -258,14 +256,13 @@
             this.btnMaximizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
             this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMaximizar.Image = global::CapaPresentacion.Properties.Resources.icons8_cuadrado_501;
-            this.btnMaximizar.Location = new System.Drawing.Point(924, 6);
+            this.btnMaximizar.Location = new System.Drawing.Point(908, 6);
             this.btnMaximizar.Margin = new System.Windows.Forms.Padding(2);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(19, 20);
             this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMaximizar.TabIndex = 1;
             this.btnMaximizar.TabStop = false;
-            this.btnMaximizar.Click += new System.EventHandler(this.btnMaximizar_Click);
             // 
             // btnCerrar
             // 
@@ -273,30 +270,29 @@
             this.btnCerrar.BackColor = System.Drawing.Color.OrangeRed;
             this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCerrar.Image = global::CapaPresentacion.Properties.Resources.icons8_x_641;
-            this.btnCerrar.Location = new System.Drawing.Point(947, 6);
+            this.btnCerrar.Location = new System.Drawing.Point(931, 6);
             this.btnCerrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(19, 20);
             this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnCerrar.TabIndex = 0;
             this.btnCerrar.TabStop = false;
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click_1);
             // 
-            // GestionEmpleados
+            // GestionPrestamos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(975, 528);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(959, 489);
             this.Controls.Add(this.panelContenedor);
             this.Controls.Add(this.MenuVertical);
             this.Controls.Add(this.BarraTitulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "GestionEmpleados";
-            this.Text = "GestionEmpleados";
-            this.BarraTitulo.ResumeLayout(false);
-            this.MenuVertical.ResumeLayout(false);
+            this.Name = "GestionPrestamos";
             this.panelContenedor.ResumeLayout(false);
+            this.MenuVertical.ResumeLayout(false);
+            this.BarraTitulo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
@@ -308,21 +304,21 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel BarraTitulo;
-        private System.Windows.Forms.Panel MenuVertical;
-        private System.Windows.Forms.PictureBox btnCerrar;
-        private System.Windows.Forms.Panel panelContenedor;
-        private System.Windows.Forms.PictureBox btnMaximizar;
         private System.Windows.Forms.PictureBox btnMinimizar;
+        private System.Windows.Forms.PictureBox btnMaximizar;
+        private System.Windows.Forms.Button btnCerrarSesion;
         private System.Windows.Forms.PictureBox btnRestaurar;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnGestionEmpleados;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button btnGestionPagos;
+        private System.Windows.Forms.PictureBox btnCerrar;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button btnGestionPrestamos;
-        private System.Windows.Forms.Button btnCerrarSesion;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnGestionEmpleados;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panelContenedor;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel MenuVertical;
+        private System.Windows.Forms.Button btnGestionPrestamos;
+        private System.Windows.Forms.Panel BarraTitulo;
     }
 }

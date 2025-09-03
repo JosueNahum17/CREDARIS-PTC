@@ -60,5 +60,32 @@ namespace CapaPresentacion.ADMIN
         {
 
         }
+
+        private void btnGestionEmpleados_Click(object sender, EventArgs e)
+        {
+            GestionEmpleados GE = new GestionEmpleados();
+            GE.Show();
+            this.Hide();
+        }
+
+        private void btnGestionPrestamos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGestionPagos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGesltionEmpleados_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
