@@ -9,6 +9,6 @@ namespace CapaPresentacion.Clases
 {
     class conexion
     {
-        SqlConnection con = new SqlConnection("Data Source=DESKTOP-4H1J6KQ;Initial Catalog=bd_sistema;Integrated Security=True");
+        SqlConnection connexion = new SqlConnection("Data Source=DESKTOP-4H1J6KQ;Initial Catalog=bd_sistema;Integrated Security=True");
     }
 }
