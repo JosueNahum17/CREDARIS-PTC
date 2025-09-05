@@ -77,7 +77,8 @@
     <Compile Include="ADMIN\GestionPrestamos.Designer.cs">
       <DependentUpon>GestionPrestamos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Clases\conexion.cs" />
+    <Compile Include="Datos\CConexion.cs" />
+    <Compile Include="Datos\D_Pagos.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +128,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="EMPLEADO\" />
+    <Folder Include="Entidades\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logo.jpg" />

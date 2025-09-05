@@ -75,7 +75,9 @@ namespace CapaPresentacion.ADMIN
 
         private void btnGestionPagos_Click(object sender, EventArgs e)
         {
-
+            GestionPagos gestionPagos = new GestionPagos();
+            gestionPagos.Show();
+            this.Hide();
         }
 
         private void btnGesltionEmpleados_Click(object sender, EventArgs e)
